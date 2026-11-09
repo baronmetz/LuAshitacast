@@ -1,0 +1,41 @@
+local devotion = {
+    ['Devotion'] = {
+        Main = 'Kirin\'s Pole',
+        Sub = 'Raptor Strap +1',
+        Ammo = 'Bibiki Seashell',
+        Body = 'Wonder Kaftan',
+        Neck = 'Bloodbead Amulet',
+        Ear1 = 'Crimson Earring',
+        Ear2 = 'Crimson Earring',
+        Hands = 'Wonder Mitts',
+        Waist = 'Blood Stone',
+        Legs = 'Wonder Braccae',
+        Feet = 'Wonder Clomps',
+    },
+    ['Devotion70'] = {
+        Main = 'Earth Staff',
+        Sub = 'Raptor Strap +1',
+        Ammo = 'Bibiki Seashell',
+        Body = 'Wonder Kaftan',
+        Neck = 'Bloodbead Amulet',
+        Ear1 = 'Crimson Earring',
+        Ear2 = 'Crimson Earring',
+        Hands = 'Wonder Mitts',
+        Waist = 'Blood Stone',
+        Legs = 'Wonder Braccae',
+        Feet = 'Wonder Clomps',
+    },
+    ['Devotion60'] = {
+        Main = 'Earth Staff',
+        Sub = 'Raptor Strap +1',
+        Ammo = 'Bibiki Seashell',
+        Body = 'Wonder Kaftan',
+        Neck = 'Bloodbead Amulet',
+        Hands = 'Wonder Mitts',
+        Waist = 'Blood Stone',
+        Legs = 'Wonder Braccae',
+        Feet = 'Wonder Clomps',
+    },
+};
+
+return devotion;

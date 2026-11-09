@@ -1,0 +1,34 @@
+local idle = {
+    ['Idle'] = {
+        Main = 'Ryl.Arc. Sword',
+        Range = 'Peashooter',
+        Ammo = 'Bronze Bullet',
+        Head = 'Ryl.Ftm. Bandana',
+        Neck = 'Justice Badge',
+        Body = 'Lgn. Harness',
+        Hands = 'Ryl.Ftm. Gloves',
+        Ring1 = 'Windurstian Ring',
+        Ring2 = 'San d\'Orian Ring',
+        Back = 'Rabbit Mantle',
+        Waist = 'Blood Stone',
+        Legs = 'Lth. Trousers +1',
+        Feet = 'Ryl.Ftm. Boots',
+    },
+    ['Idle10'] = {
+        Main = 'Ryl.Arc. Sword',
+        Range = 'Peashooter',
+        Ammo = 'Bronze Bullet',
+        Head = 'Ryl.Ftm. Bandana',
+        Neck = 'Justice Badge',
+        Body = 'Lgn. Harness',
+        Hands = 'Ryl.Ftm. Gloves',
+        Ring1 = 'Windurstian Ring',
+        Ring2 = 'San d\'Orian Ring',
+        Back = 'Rabbit Mantle',
+        Waist = 'Blood Stone',
+        Legs = 'Lth. Trousers +1',
+        Feet = 'Ryl.Ftm. Boots',
+    },
+};
+
+return idle;

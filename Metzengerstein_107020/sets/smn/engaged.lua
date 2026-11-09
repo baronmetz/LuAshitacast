@@ -1,0 +1,45 @@
+local engaged = {
+    ['Engaged'] = {
+        Main = 'Decurion\'s Dagger',
+        Head = 'Mrc.Cpt. Headgear',
+        Neck = 'Spike Necklace',
+        Ear1 = 'Beetle Earring +1',
+        Ear2 = 'Beetle Earring +1',
+        Body = 'Mrc.Cpt. Doublet',
+        Hands = 'Carbuncle Mitts',
+        Ring1 = 'Courage Ring +1',
+        Ring2 = 'Courage Ring +1',
+        Legs = 'Wonder Braccae',
+        Feet = 'Wonder Clomps',
+    },
+    ['Engaged40'] = {
+        Main = 'Decurion\'s Dagger',
+        Ear1 = 'Bone Earring +1',
+        Ear2 = 'Bone Earring +1',
+        Body = 'Wonder Kaftan',
+        Ring1 = 'Courage Ring +1',
+        Ring2 = 'Courage Ring +1',
+        Legs = 'Wonder Braccae',
+        Feet = 'Wonder Clomps',
+    },
+    ['Engaged30'] = {
+        Main = 'Decurion\'s Dagger',
+        Ear1 = 'Beetle Earring +1',
+        Ear2 = 'Beetle Earring +1',
+        Body = 'Mrc.Cpt. Doublet',
+        Ring1 = 'Courage Ring +1',
+        Ring2 = 'Courage Ring +1',
+        Legs = 'Mrc.Cpt. Hose',
+        Feet = 'Wonder Clomps',
+    },
+    ['Engaged20'] = {
+        Main = 'Decurion\'s Dagger',
+        Neck = 'Spike Necklace',
+        Ear1 = 'Bone Earring +1',
+        Ear2 = 'Bone Earring +1',
+        Ring1 = 'Courage Ring +1',
+        Ring2 = 'Courage Ring +1',
+    },
+};
+
+return engaged;

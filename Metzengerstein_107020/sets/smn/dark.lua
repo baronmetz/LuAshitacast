@@ -1,0 +1,40 @@
+local dark = {
+    ['Dark'] = {
+        Main = 'Willow Wand +1',
+        Neck = 'Black Neckerchief',
+        Body = 'Baron\'s Saio',
+        Ring2 = 'Windurstian Ring',
+    },
+    ['Dark40'] = {
+        Main = 'Solid Wand',
+        Head = 'Seer\'s Crown +1',
+        Neck = 'Black Neckerchief',
+        Ear1 = 'Morion Earring',
+        Ear2 = 'Morion Earring',
+        Body = 'Baron\'s Saio',
+        Hands = 'Seer\'s Mitts +1',
+        Ring1 = 'Wisdom Ring',
+        Ring2 = 'Wisdom Ring',
+        Back = 'Black Cape +1',
+        Waist = 'Shaman\'s Belt',
+        Legs = 'Seer\'s Slacks +1',
+        Feet = 'Seer\'s Pumps +1',
+    },
+    ['Dark30'] = {
+        Main = 'Solid Wand',
+        Head = 'Seer\'s Crown +1',
+        Neck = 'Black Neckerchief',
+        Ear1 = 'Morion Earring',
+        Ear2 = 'Morion Earring',
+        Body = 'Baron\'s Saio',
+        Hands = 'Seer\'s Mitts +1',
+        Ring1 = 'Wisdom Ring',
+        Ring2 = 'Wisdom Ring',
+        Back = 'Black Cape +1',
+        Waist = 'Shaman\'s Belt',
+        Legs = 'Seer\'s Slacks +1',
+        Feet = 'Seer\'s Pumps +1',
+    },
+};
+
+return dark;

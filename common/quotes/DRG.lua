@@ -1,0 +1,86 @@
+return {
+    ['Jump'] = {
+        'Up we go!',
+        'Coming down hard.',
+        'Airborne.',
+        'This is the fun part.',
+    },
+    ['High Jump'] = {
+        'Higher!',
+        'From the sky.',
+        'Watch your head.',
+        'Altitude is an advantage.',
+    },
+    ['Super Jump'] = {
+        'All the way up!',
+        'You can\'t reach me.',
+        'Super jump!',
+        'Gone for a second. Back with damage.',
+    },
+    ['Spirit Link'] = {
+        'Take my strength.',
+        'Linked.',
+        'Your wounds are mine.',
+        'Share the pain.',
+    },
+    ['Call Wyvern'] = {
+        'To me!',
+        'Rise, partner.',
+        'My wing is here.',
+        'Dragon up.',
+    },
+    ['Ancient Circle'] = {
+        'No dragons here. Except mine.',
+        'Circle is set.',
+        'This ground is claimed.',
+        'Ancient and ready.',
+    },
+    ['Spirit Surge'] = {
+        'Full power!',
+        'Surge!',
+        'Everything I have.',
+        'No holding back.',
+    },
+    ['Steady Wing'] = {
+        'Hold steady.',
+        'We\'re not going down.',
+        'Stay with me.',
+        'Wings out. Hold the line.',
+    },
+    ['Angon'] = {
+        'Catch!',
+        'Pinned.',
+        'Defense down. You\'re welcome.',
+        'Special delivery.',
+    },
+    ['Deep Breathing'] = {
+        'In... out...',
+        'Breath of the dragon.',
+        'Charging.',
+        'Big one coming.',
+    },
+    ['Spirit Bond'] = {
+        'Bonded.',
+        'One will.',
+        'Closer now.',
+        'We fight as one.',
+    },
+    ['Dismiss'] = {
+        'Rest.',
+        'You\'ve done enough.',
+        'Go.',
+        'Until next time.',
+    },
+    ['Smiting Breath'] = {
+        'Burn.',
+        'From the wyvern.',
+        'Breath attack!',
+        'Hot wind.',
+    },
+    ['Restoring Breath'] = {
+        'Heal up.',
+        'Breath of life.',
+        'Patched.',
+        'Stay standing.',
+    },
+}
