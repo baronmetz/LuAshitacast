@@ -58,7 +58,7 @@ local dark = {
         Waist = 'Shaman\'s Belt',
     },
     ['Dark20'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Neck = 'Black Neckerchief',
         Body = 'Baron\'s Saio',
         Ring2 = 'Windurstian Ring',

@@ -85,7 +85,7 @@ local idle = {
         Feet = 'Wonder Clomps',
     },
     ['Idle30'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Sub = 'Light Buckler',
         Head = 'Cmp. Eye Circlet',
         Neck = 'Black Neckerchief',
@@ -101,7 +101,7 @@ local idle = {
         Feet = 'Seer\'s Pumps +1',
     },
     ['Idle20'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Sub = 'Fish Scale Shield',
         Head = 'Cmp. Eye Circlet',
         Neck = 'Black Neckerchief',
@@ -117,7 +117,7 @@ local idle = {
         Feet = 'Dream Boots +1',
     },
     ['Idle10'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Sub = 'Fish Scale Shield',
         Head = 'Cmp. Eye Circlet',
         Neck = 'Black Neckerchief',

@@ -63,7 +63,7 @@ local idle = {
         Feet = 'Wonder Clomps',
     },
     ['Idle30'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Sub = 'Fish Scale Shield',
         Range = 'Self Bow +1',
         Ammo = 'Fang Arrow',

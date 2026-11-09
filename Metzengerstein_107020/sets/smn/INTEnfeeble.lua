@@ -31,7 +31,7 @@ local INTEnfeeble = {
         Feet = 'Seer\'s Pumps +1',
     },
     ['INTEnfeeble30'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Head = 'Seer\'s Crown +1',
         Neck = 'Black Neckerchief',
         Ear1 = 'Morion Earring',
@@ -46,7 +46,7 @@ local INTEnfeeble = {
         Feet = 'Seer\'s Pumps +1',
     },
     ['INTEnfeeble20'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Neck = 'Black Neckerchief',
         Body = 'Baron\'s Saio',
         Ring2 = 'Windurstian Ring',

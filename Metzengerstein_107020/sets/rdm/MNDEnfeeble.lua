@@ -54,7 +54,7 @@ local MNDEnfeeble = {
         Ring2 = 'San d\'Orian Ring',
     },
     ['MNDEnfeeble20'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Neck = 'Justice Badge',
         Body = 'Baron\'s Saio',
         Ring1 = 'San d\'Orian Ring',

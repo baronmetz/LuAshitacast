@@ -30,7 +30,7 @@ local idle = {
         Feet = 'Seer\'s Pumps +1',
     },
     ['Idle30'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Head = 'Seer\'s Crown +1',
         Neck = 'Black Neckerchief',
         Ear1 = 'Morion Earring',
@@ -45,7 +45,7 @@ local idle = {
         Feet = 'Seer\'s Pumps +1',
     },
     ['Idle20'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Head = 'Cmp. Eye Circlet',
         Neck = 'Black Neckerchief',
         Ear1 = 'Bone Earring +1',

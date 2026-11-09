@@ -1,6 +1,6 @@
 local cure = {
     ['Cure'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Neck = 'Justice Badge',
         Body = 'Baron\'s Saio',
         Ring1 = 'Tamas Ring',
@@ -31,14 +31,14 @@ local cure = {
         Legs = 'Wonder Braccae',
     },
     ['Cure30'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Neck = 'Justice Badge',
         Body = 'Baron\'s Saio',
         Ring1 = 'Tamas Ring',
         Ring2 = 'San d\'Orian Ring',
     },
     ['Cure20'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Neck = 'Justice Badge',
         Body = 'Baron\'s Saio',
         Ring1 = 'San d\'Orian Ring',

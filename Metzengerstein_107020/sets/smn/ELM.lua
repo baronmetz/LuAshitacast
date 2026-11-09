@@ -1,6 +1,6 @@
 local ELM = {
     ['ELM'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Head = 'Seer\'s Crown +1',
         Neck = 'Black Neckerchief',
         Ear1 = 'Morion Earring',
@@ -30,7 +30,7 @@ local ELM = {
         Feet = 'Seer\'s Pumps +1',
     },
     ['ELM30'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Head = 'Seer\'s Crown +1',
         Neck = 'Black Neckerchief',
         Ear1 = 'Morion Earring',

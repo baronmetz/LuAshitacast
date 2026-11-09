@@ -1,6 +1,6 @@
 local MNDEnfeeble = {
     ['MNDEnfeeble'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Neck = 'Justice Badge',
         Body = 'Baron\'s Saio',
         Ring1 = 'San d\'Orian Ring',
@@ -28,7 +28,7 @@ local MNDEnfeeble = {
         Feet = 'Seer\'s Pumps +1',
     },
     ['MNDEnfeeble20'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Neck = 'Justice Badge',
         Body = 'Baron\'s Saio',
         Ring1 = 'San d\'Orian Ring',

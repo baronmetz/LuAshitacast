@@ -1,20 +1,20 @@
 local divine = {
     ['Divine'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Neck = 'Justice Badge',
         Body = 'Baron\'s Saio',
         Ring1 = 'Tamas Ring',
         Ring2 = 'San d\'Orian Ring',
     },
     ['Divine30'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Neck = 'Justice Badge',
         Body = 'Baron\'s Saio',
         Ring1 = 'Tamas Ring',
         Ring2 = 'San d\'Orian Ring',
     },
     ['Divine20'] = {
-        Main = 'Willow Wand +1',
+        Main = 'Yew Wand +1',
         Neck = 'Justice Badge',
         Body = 'Baron\'s Saio',
         Ring1 = 'San d\'Orian Ring',

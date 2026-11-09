@@ -83,7 +83,7 @@ local cure = {
         Feet = 'Seer\'s Pumps +1',
     },
     ['Cure20'] = {
-        Main = 'Blessed Hammer',
+        Main = 'Yew Wand +1',
         Ammo = 'Holy Ampulla',
         Neck = 'Justice Badge',
         Ear1 = 'Geist Earring',
