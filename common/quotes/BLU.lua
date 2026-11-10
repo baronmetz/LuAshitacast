@@ -22,7 +22,7 @@ return {
     ['Sheep Song'] = {
         'Baa.',
         'Nap time.',
-        'Count the sheep. You\'re one of them.',
+        'Count the sheep.',
     },
     ['Wild Oats'] = {
         'Sowing chaos.',
@@ -34,7 +34,7 @@ return {
     },
     ['Screwdriver'] = {
         'Righty tighty.',
-        'Lefty loosey.',
+        'Lefty loosy.',
         'Phillips or Flathead?',
     },
     ['Grand Slam'] = {
