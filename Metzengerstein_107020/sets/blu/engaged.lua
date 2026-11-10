@@ -51,9 +51,6 @@ local engaged = {
     },
     ['Engaged30'] = {
         Main = 'Centurion\'s Sword',
-        Sub = 'Fish Scale Shield',
-        Range = 'Self Bow +1',
-        Ammo = 'Fang Arrow',
         Head = 'Mrc.Cpt. Headgear',
         Neck = 'Spike Necklace',
         Ear1 = 'Beetle Earring +1',

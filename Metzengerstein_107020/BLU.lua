@@ -274,7 +274,7 @@ end
 
 profile.HandleMidcast = function()
     local action = gData.GetAction()
-    if action and action.Name and math.random(100) <= 40 then
+    if action and action.Name and math.random(100) <= 20 then
         quoter.sayFor(action.Name)
     end
 

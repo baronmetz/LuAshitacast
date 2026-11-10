@@ -173,7 +173,6 @@ db.Families = {
     ------------------------------------------------------------------
     ['Orc'] = {
         { name = 'Battle Dance',   level = 12, points = 3, skillReq = 18 },
-        { name = 'Blastbomb',      level = 18, points = 2, skillReq = 30 },
     },
     ['Quadav'] = {
         { name = 'Head Butt',      level = 12, points = 3, skillReq = 18 },
@@ -513,6 +512,7 @@ db.NameToFamily = {
     -- Beastmen
     ['Orcish Fodder'] = 'Orc', ['Orcish Grappler'] = 'Orc', ['Orcish Mesmerizer'] = 'Orc',
     ['Orcish Grunt'] = 'Orc', ['Orcish Serjeant'] = 'Orc', ['Orcish Stonechucker'] = 'Orc',
+    ['Orcish Brawler'] = 'Orc',
     ['Young Quadav'] = 'Quadav', ['Amethyst Quadav'] = 'Quadav', ['Amber Quadav'] = 'Quadav',
     ['Greater Quadav'] = 'Quadav', ['Veteran Quadav'] = 'Quadav',
     ['Yagudo Initiate'] = 'Yagudo', ['Yagudo Acolyte'] = 'Yagudo', ['Yagudo Scribe'] = 'Yagudo',
@@ -525,7 +525,7 @@ db.NameToFamily = {
 
     -- Birds
     ['Carrion Crow'] = 'Bird', ['Akbaba'] = 'Bird', ['Nightshade'] = 'Bird',
-    ['Jubjub'] = 'Bird', ['Crow'] = 'Bird',
+    ['Jubjub'] = 'Bird', ['Crow'] = 'Bird', ['Ba'] = 'Bird',
     ['Mouse Bat'] = 'GiantBat', ['Fledermaus'] = 'GiantBat', ['Blade Bat'] = 'GiantBat',
     ['Cheiroptera'] = 'GiantBat', ['Acro Bat'] = 'GiantBat', ['Grave Bat'] = 'GiantBat',
     ['Poison Bat'] = 'GiantBat', ['Black Bat'] = 'GiantBat', ['Giant Bat'] = 'GiantBat',
