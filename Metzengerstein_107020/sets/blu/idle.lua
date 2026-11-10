@@ -1,8 +1,6 @@
 local idle = {
     ['Idle'] = {
-        Main = 'Flame Sword',
-        Range = 'Self Bow +1',
-        Ammo = 'Fang Arrow',
+        Main = 'Centurion\'s Sword',
         Head = 'Mrc.Cpt. Headgear',
         Neck = 'Black Neckerchief',
         Ear1 = 'Morion Earring',
