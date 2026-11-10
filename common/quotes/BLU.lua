@@ -34,7 +34,8 @@ return {
     },
     ['Screwdriver'] = {
         'Righty tighty.',
-        'Twisted.',
+        'Lefty loosey.',
+        'Phillips or Flathead?',
     },
     ['Grand Slam'] = {
         'Outta the park!',
