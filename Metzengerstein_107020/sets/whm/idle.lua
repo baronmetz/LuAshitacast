@@ -1,6 +1,6 @@
 local idle = {
     ['Idle'] = {
-        Main = 'Kirin\'s Pole',
+        Main = 'Earth Staff',
         Sub = 'Raptor Strap +1',
         Ammo = 'Holy Ampulla',
         Head = 'Elite Beret +1',
