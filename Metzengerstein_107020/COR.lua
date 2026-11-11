@@ -32,6 +32,8 @@ local function debugPrint(...)
     end
 end
 
+merge(sets, idleSets);
+
 profile.OnLoad = function()
     math.randomseed(os.time());
     gSettings.AllowAddSet = true;
