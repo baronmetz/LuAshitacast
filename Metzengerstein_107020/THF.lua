@@ -63,25 +63,7 @@ profile.HandleCommand = function(args)
     end
 
     if (cmd == 'tempEquipSet') then
-        if (args[2] == Nil) then 
-            print("Usage: /tempEquipSet <SetName> [seconds]");
-            return;
-        end
-
-        local player = gData.GetPlayer();
-        local setName = args[2]
-        local seconds = tonumber(args[3]) or 10
-
-        if (args[3] == Nil) then
-            print ("No time entered, defaulting to 10s");
-            cmd3 = 10;
-        end
-
-        setLeveller.equipLevelSet(player, setName, sets);
-        gFunc.lockSet();
-        ashita.tasks.once(seconds, function ()
-            gFunc.UnlockSet()
-        end)
+        setLeveller.tempEquipSet(args, sets);
     end
 end
 

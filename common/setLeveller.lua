@@ -52,7 +52,14 @@ function setLeveller.equipLevelSet(player, set, sets)
     local levelledSet = setLeveller.getLevelledSet(player, set);
 
     local gear = sets[levelledSet]
-    if not gear then return end
+    if not gear then
+        print(chat.header('Set not found: ') .. chat.message(levelledSet) .. chat.message(', trying base set ' .. set));
+        gear = sets[set];
+        if not gear then
+            printer(chat.header('Set not found: ') .. chat.message(set));
+            return
+        end
+    end
 
     if setLeveller.shouldLockWeapons(player) then
         gear = setLeveller.withoutWeapons(gear)
@@ -102,6 +109,30 @@ function setLeveller.equipInterimItem(location, item, delay)
     debugPrint(chat.header('Interim Equipment Change:') .. chat.message(item) .. chat.message(' for ' .. delay .. 's.'));
     gFunc.SetMidDelay(delay);
     gFunc.InterimEquip(location, item);
+end
+
+function setLeveller.tempEquipSet(args, sets)
+    if not args or not args[2] then
+        print("Usage: /tempEquipSet <SetName> [seconds]");
+        return;
+    end
+
+    local player = gData.GetPlayer();
+    if not player then return; end
+
+    local setName = args[2];
+    local seconds = tonumber(args[3]) or 10;
+
+    if not args[3] then
+        print("No time entered, defaulting to 10s");
+    end
+
+    setLeveller.equipLevelSet(player, setName, sets);
+    gFunc.LockSet();
+
+    ashita.tasks.once(seconds, function()
+        gFunc.UnlockSet();
+    end);
 end
 
 return setLeveller;
