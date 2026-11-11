@@ -10,9 +10,14 @@ local aketon = gFunc.LoadFile('common/aketoncheck.lua');
 local quoter = gFunc.LoadFile('common/quoter.lua');
 
 local idleSets      = gFunc.LoadFile('Metzengerstein_107020/sets/cor/idle.lua');
+local engagedSets   = gFunc.LoadFile('Metzengerstein_107020/sets/cor/engaged.lua');
+local restSets      = gFunc.LoadFile('Metzengerstein_107020/sets/cor/rest.lua');
+
+local commonSets = gFunc.LoadFile('common/sets/commonSets.lua');
 
 local profile = {};
 local sets = {
+    
 };
 
 local function merge(t1, t2)
@@ -33,6 +38,9 @@ local function debugPrint(...)
 end
 
 merge(sets, idleSets);
+merge(sets, engagedSets);
+merge(sets, restSets);
+merge(sets, commonSets);
 
 profile.OnLoad = function()
     math.randomseed(os.time());
@@ -43,11 +51,11 @@ profile.OnLoad = function()
     AshitaCore:GetChatManager():QueueCommand(-1, '/alias /weather /lac fwd weather');
     AshitaCore:GetChatManager():QueueCommand(-1, '/alias /harvest /lac fwd harvest');
 
-    AshitaCore:GetChatManager():QueueCommand(-1, '/bind ^H /harvest');
+    AshitaCore:GetChatManager():QueueCommand(-1, '/bind H /harvest');
 end
 
 profile.OnUnload = function()
-    AshitaCore:GetChatManager():QueueCommand(-1, '/unbind ^H');
+    AshitaCore:GetChatManager():QueueCommand(-1, '/unbind H');
 end
 
 profile.HandleCommand = function(args)

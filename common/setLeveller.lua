@@ -53,10 +53,10 @@ function setLeveller.equipLevelSet(player, set, sets)
 
     local gear = sets[levelledSet]
     if not gear then
-        print(chat.header('Set not found: ') .. chat.message(levelledSet) .. chat.message(', trying base set ' .. set));
+        print(chat.header('SetLeveller: ') .. chat.message('Set not found: ') .. chat.message(levelledSet) .. chat.message(', trying base set ' .. set));
         gear = sets[set];
         if not gear then
-            printer(chat.header('Set not found: ') .. chat.message(set));
+            print(chat.header('SetLeveller: ') .. chat.message('Set not found: ') .. chat.message(set));
             return
         end
     end
@@ -127,12 +127,12 @@ function setLeveller.tempEquipSet(args, sets)
         print("No time entered, defaulting to 10s");
     end
 
-    setLeveller.equipLevelSet(player, setName, sets);
-    gFunc.LockSet();
-
-    ashita.tasks.once(seconds, function()
-        gFunc.UnlockSet();
-    end);
+    local levelledSet = setLeveller.getLevelledSet(player, setName);
+    local gear = sets[levelledSet];
+    if not gear then
+        gear = sets[setName];
+    end
+    gFunc.LockSet(gear, seconds);
 end
 
 function setLeveller.harvest(sets)
@@ -158,16 +158,15 @@ function setLeveller.harvest(sets)
 
     -- Equip Harvesting set (level-synced) and lock it briefly
     local player = gData.GetPlayer()
-    setLeveller.equipLevelSet(player, "Harvesting", sets)
-    gFunc.LockSet()
+    local levelledSet = setLeveller.getLevelledSet(player, setName);
+    local gear = sets[levelledSet];
+    if not gear then
+        gear = sets[setName];
+    end
+    gFunc.LockSet(gear, seconds);
 
     -- Use the tool on the current target
     AshitaCore:GetChatManager():QueueCommand(1, '/item "' .. tool .. '" <t>')
-
-    -- Unlock after a short delay (adjust if you want it longer)
-    ashita.tasks.once(3, function()
-        gFunc.UnlockSet()
-    end)
 end
 
 return setLeveller;

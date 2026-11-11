@@ -112,11 +112,11 @@ profile.OnLoad = function()
     AshitaCore:GetChatManager():QueueCommand(-1, '/alias /practiceSMN /lac fwd practicesmn')
     AshitaCore:GetChatManager():QueueCommand(-1, '/alias /harvest /lac fwd harvest');
 
-    AshitaCore:GetChatManager():QueueCommand(-1, '/bind ^H /harvest');
+    AshitaCore:GetChatManager():QueueCommand(-1, '/bind H /harvest');
 end
 
 profile.OnUnload = function()
-    AshitaCore:GetChatManager():QueueCommand(-1, '/unbind ^H');
+    AshitaCore:GetChatManager():QueueCommand(-1, '/unbind H');
 end
 
 profile.HandleCommand = function(args)

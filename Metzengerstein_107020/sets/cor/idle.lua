@@ -10,7 +10,7 @@ local idle = {
         Ring1 = 'Courage Ring +1',
         Ring2 = 'Courage Ring +1',
         Back = 'Rabbit Mantle',
-        Waist = 'Blood Stone',
+        Waist = 'Warrior\'s Belt +1',
         Legs = 'Lth. Trousers +1',
         Feet = 'Ryl.Ftm. Boots',
     },
