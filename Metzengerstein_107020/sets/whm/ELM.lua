@@ -1,5 +1,6 @@
 local maxint = {
     ['ELM'] = {
+        Ammo = 'Sweet Sachet',
         Head = 'Elite Beret +1',
         Neck = 'Checkered Scarf',
         Ear1 = 'Morion Earring',
@@ -14,18 +15,27 @@ local maxint = {
         Feet = 'Healer\'s duckbills',
     },
     ['ELM70'] = {
+        Ammo = 'Sweet Sachet',
         Neck = 'Checkered Scarf',
-        Ear1 = 'Cunning Earring',
-        Back = 'Red Cape +1',
-        Ring1 = 'Tamas Ring',
+        Ear1 = 'Morion Earring',
+        Ear2 = 'Morion Earring',
         Hands = 'Mst. Cst. Bracelets',
+        Ring1 = 'Tamas Ring',
+        Ring2 = 'Wisdom Ring',
+        Back = 'Red Cape +1',
+        Waist = 'Shaman\'s Belt',
+        Legs = 'Seer\'s Slacks +1',
         Feet = 'Healer\'s duckbills',
     },
     ['ELM60'] = {
+        Ammo = 'Sweet Sachet',
         Neck = 'Checkered Scarf',
-        Ear1 = 'Cunning Earring',
+        Ear1 = 'Morion Earring',
+        Ear2 = 'Morion Earring',
         Back = 'Red Cape +1',
         Ring1 = 'Tamas Ring',
+        Ring2 = 'Wisdom Ring',
+        Legs = 'Seer\'s Slacks +1',
         Feet = 'Healer\'s duckbills',
     },
 };
