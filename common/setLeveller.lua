@@ -135,4 +135,39 @@ function setLeveller.tempEquipSet(args, sets)
     end);
 end
 
+function setLeveller.harvest(sets)
+    local target = gData.GetTarget()
+    if not target or not target.Name then
+        print("No target.")
+        return
+    end
+
+    local name = target.Name
+    local tool
+
+    if name == "Harvesting Point" then
+        tool = "Sickle"
+    elseif name == "Logging Point" then
+        tool = "Hatchet"
+    elseif name == "Mining Point" or name == "Excavation Point" then
+        tool = "Pickaxe"
+    else
+        print("Not a gathering point: " .. name)
+        return
+    end
+
+    -- Equip Harvesting set (level-synced) and lock it briefly
+    local player = gData.GetPlayer()
+    setLeveller.equipLevelSet(player, "Harvesting", sets)
+    gFunc.LockSet()
+
+    -- Use the tool on the current target
+    AshitaCore:GetChatManager():QueueCommand(1, '/item "' .. tool .. '" <t>')
+
+    -- Unlock after a short delay (adjust if you want it longer)
+    ashita.tasks.once(3, function()
+        gFunc.UnlockSet()
+    end)
+end
+
 return setLeveller;

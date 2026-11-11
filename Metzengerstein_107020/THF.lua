@@ -40,9 +40,13 @@ profile.OnLoad = function()
     AshitaCore:GetChatManager():QueueCommand(-1, '/alias /resist /lac fwd resist');
     AshitaCore:GetChatManager():QueueCommand(-1, '/alias /weather /lac fwd weather');
     AshitaCore:GetChatManager():QueueCommand(-1, '/alias /tempEquipSet /lac fwd tempEquipSet');
+    AshitaCore:GetChatManager():QueueCommand(-1, '/alias /harvest /lac fwd harvest');
+
+    AshitaCore:GetChatManager():QueueCommand(-1, '/bind ^H /harvest');
 end
 
 profile.OnUnload = function()
+    AshitaCore:GetChatManager():QueueCommand(-1, '/unbind ^H');
 end
 
 profile.HandleCommand = function(args)
@@ -64,6 +68,10 @@ profile.HandleCommand = function(args)
 
     if (cmd == 'tempEquipSet') then
         setLeveller.tempEquipSet(args, sets);
+    end
+
+    if (cmd == 'harvest') then
+        setLeveller.harvest(sets);
     end
 end
 

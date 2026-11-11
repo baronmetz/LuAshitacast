@@ -46,11 +46,15 @@ profile.OnLoad = function()
     AshitaCore:GetChatManager():QueueCommand(-1, '/alias /synth /lac fwd synth');
     AshitaCore:GetChatManager():QueueCommand(-1, '/alias /resist /lac fwd resist');
     AshitaCore:GetChatManager():QueueCommand(-1, '/alias /weather /lac fwd weather');
+    AshitaCore:GetChatManager():QueueCommand(-1, '/alias /harvest /lac fwd harvest');
+
+    AshitaCore:GetChatManager():QueueCommand(-1, '/bind ^H /harvest');
 
     AshitaCore:GetChatManager():QueueCommand(-1, '/alias /practice /lac fwd practice')
 end
 
 profile.OnUnload = function()
+    AshitaCore:GetChatManager():QueueCommand(-1, '/unbind ^H');
 end
 
 profile.HandleCommand = function(args)
@@ -67,6 +71,10 @@ profile.HandleCommand = function(args)
 
     if (cmd == 'weather') then
         weatherFunc.Show();
+    end
+
+    if (cmd == 'harvest') then
+        setLeveller.harvest(sets);
     end
 
     if (cmd == 'practice') then
