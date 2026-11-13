@@ -22,6 +22,8 @@ local cureSets      = gFunc.LoadFile('Metzengerstein_107020/sets/rdm/cure.lua');
 local divineSets    = gFunc.LoadFile('Metzengerstein_107020/sets/rdm/divine.lua');
 local fastCastSets    = gFunc.LoadFile('Metzengerstein_107020/sets/rdm/fastCast.lua');
 
+local commonSets = gFunc.LoadFile('common/sets/commonSets.lua');
+
 local profile = {};
 
 local currentSet = 'Idle';
@@ -47,6 +49,7 @@ merge(sets, engagedSets);
 merge(sets, cureSets);
 merge(sets, divineSets);
 merge(sets, fastCastSets);
+merge(sets, commonSets);
 
 profile.Sets = sets;
 

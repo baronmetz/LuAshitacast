@@ -8,7 +8,7 @@ local dark = {
         Body = 'Baron\'s Saio',
         Ring1 = 'Tamas Ring',
         Ring2 = 'Wisdom Ring',
-        Back = 'Black Cape +1',
+        Back = 'Red Cape +1',
         Waist = 'Ryl.Kgt. Belt',
         Feet = 'Warlock\'s Boots',
     },
