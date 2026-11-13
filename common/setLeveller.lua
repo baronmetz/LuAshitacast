@@ -159,7 +159,7 @@ function setLeveller.harvest(sets)
     -- Equip Harvesting set (level-synced) and lock it briefly
     local player = gData.GetPlayer();
     local gear = sets['Harvest'];
-    gFunc.LockSet(gear, 10);
+    gFunc.LockSet(gear, 30);
 
     -- Use the tool on the current target
     AshitaCore:GetChatManager():QueueCommand(1, '/item "' .. tool .. '" <t>')
