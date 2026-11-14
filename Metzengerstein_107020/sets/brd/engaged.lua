@@ -1,8 +1,13 @@
 local engaged = {
     ['Engaged'] = {
-        Main = 'Federation Knife',
+        Main = 'Kingdom Dagger',
         Sub = 'Centurion\'s Sword',
-        Waist = 'Warrior\'s Belt +1',
+        Waist = 'Tilt Belt',
+    },
+    ['Engaged40'] = {
+        Main = 'Kingdom Dagger',
+        Sub = 'Centurion\'s Sword',
+        Waist = 'Tilt Belt',
     },
     ['Engaged30'] = {
         Main = 'Federation Knife',
