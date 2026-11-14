@@ -1,11 +1,13 @@
 local interrupt = {
     ['Interrupt'] = {
         Neck = 'Willpower Torque',
+        Body = 'Warlock\'s Tabard',
         Legs = 'Warlock\'s Tights',
         Waist = 'Silver Obi +1',
     },
     ['Interrupt60'] = {
         Neck = 'Willpower Torque',
+        Body = 'Warlock\'s Tabard',
         Legs = 'Warlock\'s Tights',
         Waist = 'Silver Obi +1',
     },
