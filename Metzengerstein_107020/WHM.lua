@@ -249,6 +249,11 @@ profile.HandleMidcast = function()
 
         if (statusCleaners:contains(action.Name)) then
             setLeveller.equipItem('Ring2', 'Virology Ring');
+
+            if action.Name == 'Cursna' then
+                setLeveller.equipItem('Legs', 'Cleric\'s Pantaln.');
+                setLeveller.equipItem('Feet', 'Healer\'s Mitts');
+            end
         end
     elseif (action.Skill == 'Divine Magic') then
         setLeveller.equipItem('Main', staffTable['Light']);
@@ -263,6 +268,7 @@ profile.HandleMidcast = function()
 
     if string.match(action.Name, 'Bar')  then
         setLeveller.equipItem('Body', 'Blessed Bliaut');
+        setLeveller.equipItem('Legs', 'Cleric\'s Pantaln.');
     end
 
     if action.Name == 'Stoneskin' then
