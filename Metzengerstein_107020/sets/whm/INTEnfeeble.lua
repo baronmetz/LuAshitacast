@@ -40,7 +40,7 @@ local INTEnfeeble = {
         Feet = 'Healer\'s duckbills',
     },
     ['INTEnfeeble50'] = {
-        Neck = 'Checkered Scarf',
+        Neck = 'Black Neckerchief',
         Ear1 = 'Morion Earring',
         Ear2 = 'Morion Earring',
         Body = 'Baron\'s Saio',
