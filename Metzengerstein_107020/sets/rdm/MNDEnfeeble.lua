@@ -9,7 +9,7 @@ local MNDEnfeeble = {
         Ring2 = 'KShama Ring No.9',
         Back = 'Red Cape +1',
         Waist = 'Ryl.Kgt. Belt',
-        Legs = 'Wonder Braccae',
+        Legs = 'Warlock\'s Tights',
         Feet = 'Warlock\'s Boots',
     },
     ['MNDEnfeeble60'] = {
@@ -22,7 +22,7 @@ local MNDEnfeeble = {
         Ring2 = 'KShama Ring No.9',
         Back = 'Red Cape +1',
         Waist = 'Ryl.Kgt. Belt',
-        Legs = 'Wonder Braccae',
+        Legs = 'Warlock\'s Tights',
         Feet = 'Warlock\'s Boots',
     },
     ['MNDEnfeeble50'] = {
