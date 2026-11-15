@@ -6,6 +6,7 @@ local dark = {
         Ear1 = 'Morion Earring',
         Ear2 = 'Morion Earring',
         Body = 'Baron\'s Saio',
+        Hands = 'Mst.Cst. Bracelets',
         Ring1 = 'Tamas Ring',
         Ring2 = 'Wisdom Ring',
         Back = 'Red Cape +1',

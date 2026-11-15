@@ -5,6 +5,7 @@ local MNDEnfeeble = {
         Ear1 = 'Geist Earring',
         Ear2 = 'Geist Earring',
         Body = 'Warlock\'s Tabard',
+        Hands = 'Mst.Cst. Bracelets',
         Ring1 = 'Tamas Ring',
         Ring2 = 'KShama Ring No.9',
         Back = 'Red Cape +1',
