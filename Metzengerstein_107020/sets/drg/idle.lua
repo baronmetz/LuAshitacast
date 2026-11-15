@@ -27,7 +27,6 @@ local idle = {
         Legs = 'Lth. Trousers +1',
         Feet = 'Ryl.Ftm. Boots',
     },
-    -- Add Idle60, Idle50, etc. here later when you get better gear
 };
 
 return idle;
