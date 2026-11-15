@@ -25,6 +25,8 @@ local divineSets    = gFunc.LoadFile('Metzengerstein_107020/sets/drg/divine.lua'
 local resistWaterSets = gFunc.LoadFile('Metzengerstein_107020/sets/resists/water.lua')
 local resistIceSets = gFunc.LoadFile('Metzengerstein_107020/sets/resists/ice.lua')
 
+local commonSets = gFunc.LoadFile('common/sets/commonSets.lua');
+
 local profile = {};
 
 local sets = {
@@ -51,6 +53,8 @@ merge(sets, divineSets);
 
 merge(sets, resistWaterSets);
 merge(sets, resistIceSets);
+
+merge(sets, commonSets);
 
 local fastCast = 0;
 profile.Sets = sets;
