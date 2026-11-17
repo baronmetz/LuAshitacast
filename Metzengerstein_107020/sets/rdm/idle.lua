@@ -10,7 +10,7 @@ local idle = {
         Ring2 = 'Kshama Ring No.9',
         Back = 'Bat Cape',
         Waist = 'Ryl.Kgt. Belt',
-        Legs = 'Crow Hose',
+        Legs = 'Warlock\'s Tights',
         Feet = 'Warlock\'s Boots',
     },
     ['Idle60'] = {
@@ -24,7 +24,7 @@ local idle = {
         Ring2 = 'Kshama Ring No.9',
         Back = 'Bat Cape',
         Waist = 'Ryl.Kgt. Belt',
-        Legs = 'Crow Hose',
+        Legs = 'Warlock\'s Tights',
         Feet = 'Warlock\'s Boots',
     },
     ['Idle50'] = {
