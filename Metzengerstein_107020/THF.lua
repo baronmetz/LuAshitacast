@@ -13,6 +13,8 @@ local restSets     = gFunc.LoadFile('Metzengerstein_107020/sets/thf/rest.lua');
 local engagedSets   = gFunc.LoadFile('Metzengerstein_107020/sets/thf/engaged.lua');
 local boltSets   = gFunc.LoadFile('Metzengerstein_107020/sets/thf/bolts.lua');
 
+local commonSets = gFunc.LoadFile('common/sets/commonSets.lua');
+
 local profile = {};
 local sets = {
 };
@@ -28,6 +30,8 @@ merge(sets, idleSets);
 merge(sets, engagedSets);
 merge(sets, boltSets);
 merge(sets, restSets);
+
+merge(sets, commonSets);
 
 profile.Packer = {
 };
