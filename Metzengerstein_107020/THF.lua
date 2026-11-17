@@ -9,6 +9,7 @@ local staffTable = gFunc.LoadFile('common/staffTable.lua');
 local quoter = gFunc.LoadFile('common/quoter.lua');
 
 local idleSets      = gFunc.LoadFile('Metzengerstein_107020/sets/thf/idle.lua');
+local restSets     = gFunc.LoadFile('Metzengerstein_107020/sets/thf/rest.lua');
 local engagedSets   = gFunc.LoadFile('Metzengerstein_107020/sets/thf/engaged.lua');
 local boltSets   = gFunc.LoadFile('Metzengerstein_107020/sets/thf/bolts.lua');
 
@@ -26,6 +27,7 @@ end
 merge(sets, idleSets);
 merge(sets, engagedSets);
 merge(sets, boltSets);
+merge(sets, restSets);
 
 profile.Packer = {
 };
