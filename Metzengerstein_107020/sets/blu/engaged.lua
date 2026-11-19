@@ -15,8 +15,6 @@ local engaged = {
         Feet = 'Wonder Clomps',
     },
     ['Engaged50'] = {
-        Main = 'Fencing Degen',
-        Sub = 'Light Buckler',
         Range = 'Kaman +1',
         Head = 'Crow Beret',
         Neck = 'Spike Necklace',
@@ -32,8 +30,6 @@ local engaged = {
         Feet = 'Crow Gaiters',
     },
     ['Engaged40'] = {
-        Main = 'Centurion\'s Sword',
-        Sub = 'Light Buckler',
         Range = 'Self Bow +1',
         Ammo = 'Fang Arrow',
         Head = 'Mrc.Cpt. Headgear',
@@ -57,7 +53,7 @@ local engaged = {
         Ear2 = 'Beetle Earring +1',
         Body = 'Mrc.Cpt. Doublet',
         Hands = 'Wonder Mitts',
-        Ring1 = 'Tamas Ring',
+        Ring1 = 'Courage Ring +1',
         Ring2 = 'Courage Ring +1',
         Back = 'Wolf Mantle +1',
         Waist = 'Warrior\'s Belt +1',

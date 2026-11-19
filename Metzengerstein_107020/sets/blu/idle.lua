@@ -43,8 +43,6 @@ local idle = {
         Feet = 'Crow Gaiters',
     },
     ['Idle40'] = {
-        Main = 'Fencing Degen',
-        Sub = 'Light Buckler',
         Range = 'Self Bow +1',
         Ammo = 'Fang Arrow',
         Head = 'Mrc.Cpt. Headgear',
@@ -61,8 +59,7 @@ local idle = {
         Feet = 'Wonder Clomps',
     },
     ['Idle30'] = {
-        Main = 'Yew Wand +1',
-        Sub = 'Fish Scale Shield',
+        Main = 'Centurion\'s Sword',
         Range = 'Self Bow +1',
         Ammo = 'Fang Arrow',
         Head = 'Mrc.Cpt. Headgear',
