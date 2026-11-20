@@ -21,6 +21,8 @@ local avatarSets = gFunc.LoadFile('Metzengerstein_107020/sets/smn/avatars.lua');
 
 local resistWaterSets = gFunc.LoadFile('Metzengerstein_107020/sets/resists/water.lua');
 
+local commonSets = gFunc.LoadFile('common/sets/commonSets.lua');
+
 local currentSet = 'Idle';
 
 local profile = {};
@@ -44,9 +46,12 @@ merge(sets, ELMSets);
 merge(sets, INTEnfeebleSets);
 merge(sets, MNDEnfeebleSets);
 merge(sets, CureSets);
-merge(sets, InterruptSets);
-merge(sets, resistWaterSets);
 merge(sets, avatarSets);
+merge(sets, InterruptSets);
+
+merge(sets, resistWaterSets);
+
+merge(sets, commonSets);
 
 profile.Packer = {
 };
