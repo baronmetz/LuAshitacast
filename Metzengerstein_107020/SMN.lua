@@ -18,6 +18,8 @@ local MNDEnfeebleSets = gFunc.LoadFile('Metzengerstein_107020/sets/smn/MNDEnfeeb
 local CureSets = gFunc.LoadFile('Metzengerstein_107020/sets/smn/cure.lua');
 local InterruptSets = gFunc.LoadFile('Metzengerstein_107020/sets/smn/interrupt.lua');
 local avatarSets = gFunc.LoadFile('Metzengerstein_107020/sets/smn/avatars.lua');
+local fastCastSets     = gFunc.LoadFile('Metzengerstein_107020/sets/smn/fastCast.lua');
+local divineSets     = gFunc.LoadFile('Metzengerstein_107020/sets/smn/divine.lua');
 
 local resistWaterSets = gFunc.LoadFile('Metzengerstein_107020/sets/resists/water.lua');
 
@@ -48,6 +50,8 @@ merge(sets, MNDEnfeebleSets);
 merge(sets, CureSets);
 merge(sets, avatarSets);
 merge(sets, InterruptSets);
+merge(sets, fastCastSets);
+merge(sets, divineSets);
 
 merge(sets, resistWaterSets);
 
