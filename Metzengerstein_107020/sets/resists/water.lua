@@ -7,6 +7,20 @@ local water = {
         Ear1 = 'Merman\'s Earring',
         Ear2 = 'Coral Earring',
     },
+    ['ResistWater70'] = {
+        Ammo = 'Bibiki Seashell',
+        Head = 'Blue Ribbon',
+        Neck = 'M. No.17\'s Locket',
+        Ear1 = 'Merman\'s Earring',
+        Ear2 = 'Coral Earring',
+    },
+    ['ResistWater60'] = {
+        Ammo = 'Bibiki Seashell',
+        Head = 'Blue Ribbon',
+        Neck = 'M. No.17\'s Locket',
+        Ear1 = 'Merman\'s Earring',
+        Ear2 = 'Coral Earring',
+    },
 };
 
 return water;
