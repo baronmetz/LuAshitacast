@@ -28,6 +28,14 @@ local function debugPrint(...)
     end
 end
 
+local warnedMissing = {}
+
+local function warnMissingOnce(setName)
+    if warnedMissing[setName] then return end
+    warnedMissing[setName] = true
+    print(chat.header('SetLeveller: ') .. chat.message('Set not found: ') .. chat.message(setName))
+end
+
 local TP_LOCK = 300
 
 function setLeveller.shouldLockWeapons(player)
@@ -53,10 +61,10 @@ function setLeveller.equipLevelSet(player, set, sets)
 
     local gear = sets[levelledSet]
     if not gear then
-        print(chat.header('SetLeveller: ') .. chat.message('Set not found: ') .. chat.message(levelledSet) .. chat.message(', trying base set ' .. set));
+        warnMissingOnce(levelledSet)
         gear = sets[set];
         if not gear then
-            print(chat.header('SetLeveller: ') .. chat.message('Set not found: ') .. chat.message(set));
+            warnMissingOnce(set)
             return
         end
     end
