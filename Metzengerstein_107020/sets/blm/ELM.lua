@@ -1,6 +1,23 @@
 local ELM = {
     ['ELM'] = {
-        Main = 'Solid Wand',
+        Main = 'Rose Wand +1',
+        Ammo = 'Sweet Sachet',
+        Head = 'Seer\'s Crown +1',
+        Neck = 'Black Neckerchief',
+        Ear1 = 'Morion Earring',
+        Ear2 = 'Morion Earring',
+        Body = 'Seer\'s Tunic',
+        Hands = 'Seer\'s Mitts +1',
+        Ring1 = 'Wisdom Ring',
+        Ring2 = 'Wisdom Ring',
+        Back = 'Red Cape +1',
+        Waist = 'Shaman\'s Belt',
+        Legs = 'Seer\'s Slacks +1',
+        Feet = 'Seer\'s Pumps +1',
+    },
+    ['ELM50'] = {
+        Main = 'Rose Wand +1',
+        Ammo = 'Sweet Sachet',
         Head = 'Seer\'s Crown +1',
         Neck = 'Black Neckerchief',
         Ear1 = 'Morion Earring',
@@ -15,7 +32,8 @@ local ELM = {
         Feet = 'Seer\'s Pumps +1',
     },
     ['ELM40'] = {
-        Main = 'Solid Wand',
+        Main = 'Rose Wand +1',
+        Ammo = 'Sweet Sachet',
         Head = 'Seer\'s Crown +1',
         Neck = 'Black Neckerchief',
         Ear1 = 'Morion Earring',
@@ -31,6 +49,7 @@ local ELM = {
     },
     ['ELM30'] = {
         Main = 'Solid Wand',
+        Ammo = 'Sweet Sachet',
         Head = 'Seer\'s Crown +1',
         Neck = 'Black Neckerchief',
         Ear1 = 'Morion Earring',

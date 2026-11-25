@@ -19,6 +19,8 @@ local MNDEnfeebleSets = gFunc.LoadFile('Metzengerstein_107020/sets/blm/MNDEnfeeb
 local CureSets = gFunc.LoadFile('Metzengerstein_107020/sets/blm/cure.lua');
 local InterruptSets = gFunc.LoadFile('Metzengerstein_107020/sets/blm/interrupt.lua');
 
+local commonSets = gFunc.LoadFile('common/sets/commonSets.lua');
+
 local resistWaterSets = gFunc.LoadFile('Metzengerstein_107020/sets/resists/water.lua');
 
 local currentSet = 'Idle';
@@ -46,6 +48,9 @@ merge(sets, INTEnfeebleSets);
 merge(sets, MNDEnfeebleSets);
 merge(sets, CureSets);
 merge(sets, InterruptSets);
+
+merge(sets, commonSets);
+
 merge(sets, resistWaterSets);
 
 profile.Packer = {

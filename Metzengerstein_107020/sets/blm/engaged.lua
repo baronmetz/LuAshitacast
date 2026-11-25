@@ -1,6 +1,6 @@
 local engaged = {
     ['Engaged'] = {
-        Main = 'Decurion\'s Dagger',
+        Main = 'Kingdom Dagger',
         Ear1 = 'Bone Earring +1',
         Ear2 = 'Bone Earring +1',
         Body = 'Wonder Kaftan',
@@ -11,7 +11,7 @@ local engaged = {
         Feet = 'Wonder Clomps',
     },
     ['Engaged40'] = {
-        Main = 'Decurion\'s Dagger',
+        Main = 'Kingdom Dagger',
         Ear1 = 'Bone Earring +1',
         Ear2 = 'Bone Earring +1',
         Body = 'Wonder Kaftan',

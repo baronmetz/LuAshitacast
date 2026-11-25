@@ -1,6 +1,23 @@
 local idle = {
     ['Idle'] = {
-        Main = 'Solid Wand',
+        Main = 'Earth Staff',
+        Ammo = 'Sweet Sachet',
+        Head = 'Seer\'s Crown +1',
+        Neck = 'Black Neckerchief',
+        Ear1 = 'Morion Earring',
+        Ear2 = 'Morion Earring',
+        Body = 'Seer\'s Tunic',
+        Hands = 'Seer\'s Mitts +1',
+        Ring1 = 'Tamas Ring',
+        Ring2 = 'Wisdom Ring',
+        Back = 'Red Cape +1',
+        Waist = 'Shaman\'s Belt',
+        Legs = 'Seer\'s Slacks +1',
+        Feet = 'Seer\'s Pumps +1',
+    },
+    ['Idle50'] = {
+        Main = 'Rose Wand +1',
+        Ammo = 'Sweet Sachet',
         Head = 'Seer\'s Crown +1',
         Neck = 'Black Neckerchief',
         Ear1 = 'Morion Earring',
@@ -15,7 +32,7 @@ local idle = {
         Feet = 'Seer\'s Pumps +1',
     },
     ['Idle40'] = {
-        Main = 'Solid Wand',
+        Main = 'Rose Wand +1',
         Head = 'Seer\'s Crown +1',
         Neck = 'Black Neckerchief',
         Ear1 = 'Morion Earring',
