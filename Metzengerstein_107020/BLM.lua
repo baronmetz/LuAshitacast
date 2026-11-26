@@ -218,8 +218,6 @@ profile.HandleMidcast = function()
         setLeveller.equipItem('Sub', 'Raptor Strap +1');
         if (action.Element == 'Light') then
             setLeveller.equipLevelSet(player, 'MNDEnfeeble', sets);
-        else
-            setLeveller.equipLevelSet(player, 'INTEnfeeble', sets);
         end
     elseif (action.Skill == 'Dark Magic') then
         setLeveller.equipItem('Main', staffTable['Dark']);

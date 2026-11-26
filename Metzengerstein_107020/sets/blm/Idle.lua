@@ -16,7 +16,7 @@ local idle = {
         Feet = 'Seer\'s Pumps +1',
     },
     ['Idle50'] = {
-        Main = 'Rose Wand +1',
+        Main = 'Earth Staff',
         Ammo = 'Sweet Sachet',
         Head = 'Seer\'s Crown +1',
         Neck = 'Beak Necklace +1',

@@ -15,7 +15,6 @@ local dark = {
         Feet = 'Seer\'s Pumps +1',
     },
      ['Dark50'] = {
-        Main = 'Rose Wand +1',
         Ammo = 'Sweet Sachet',
         Head = 'Seer\'s Crown +1',
         Neck = 'Black Neckerchief',

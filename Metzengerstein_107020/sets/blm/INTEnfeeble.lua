@@ -14,7 +14,6 @@ local INTEnfeeble = {
         Feet = 'Seer\'s Pumps +1',
     },
     ['INTEnfeeble50'] = {
-        Main = 'Rose Wand +1',
         Head = 'Seer\'s Crown +1',
         Neck = 'Black Neckerchief',
         Ear1 = 'Morion Earring',

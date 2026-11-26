@@ -7,12 +7,11 @@ local MNDEnfeeble = {
         Back = 'Red Cape +1',
         Hands = 'Seer\'s Mitts +1',
         Ring1 = 'Tamas Ring',
-        Ring2 = 'Kshama Ring No.9'
+        Ring2 = 'Kshama Ring No.9',
         Legs = 'Wonder Braccae',
         Feet = 'Seer\'s Pumps +1',
     },
     ['MNDEnfeeble50'] = {
-        Main = 'Rose Wand +1',
         Neck = 'Promise Badge',
         Ear1 = 'Geist Earring',
         Ear2 = 'Geist Earring',
@@ -20,7 +19,7 @@ local MNDEnfeeble = {
         Back = 'Red Cape +1',
         Hands = 'Seer\'s Mitts +1',
         Ring1 = 'Tamas Ring',
-        Ring2 = 'Kshama Ring No.9'
+        Ring2 = 'Kshama Ring No.9',
         Legs = 'Wonder Braccae',
         Feet = 'Seer\'s Pumps +1',
     },
