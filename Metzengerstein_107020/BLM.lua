@@ -191,12 +191,19 @@ profile.HandlePrecast = function()
     local player = gData.GetPlayer();
     local action = gData.GetAction();
 
-    fastCast = 0;
+    setLeveller.equipLevelSet(player, 'FastCast', sets);
+    if (player.MainJobSync == 75) then
+        fastCast = 4;
+    else
+        fastCast = 0;
+    end
 end
 
 profile.HandleMidcast = function()
     local MndDebuffs = T{ 'Slow', 'Paralyze', 'Slow II', 'Paralyze II', 'Addle', 'Addle II' };
     local ElementalDebuffs = T{ 'Burn', 'Rasp', 'Drown', 'Choke', 'Frost', 'Shock' };
+    local statusCleaners = T{ 'Erase', 'Paralyna', 'Silena', 'Blindna', 'Poisona', 'Cursna', 'Stona', 'Viruna' };
+
     local action = gData.GetAction();
     local player = gData.GetPlayer();
 
@@ -213,20 +220,31 @@ profile.HandleMidcast = function()
         else
             setLeveller.equipLevelSet(player, 'INTEnfeeble', sets);
         end
-    elseif (action.Skill == 'Elemental Magic') then
+    elseif (action.Skill == 'Elemental Magic' or action.Skill == 'Ninjutsu') then
         setLeveller.equipItem('Main', staffTable[action.Element]);
         setLeveller.equipItem('Sub', 'Raptor Strap +1');
         if (action.Element == 'Light') then
-            setLeveller.equipLevelSet(player, 'MNDEnfeeble', sets);
+            setLeveller.equipLevelSet(player, 'Divine', sets);
+        else
+            setLeveller.equipLevelSet(player, 'ELM', sets);
         end
     elseif (action.Skill == 'Dark Magic') then
         setLeveller.equipItem('Main', staffTable['Dark']);
         setLeveller.equipItem('Sub', 'Raptor Strap +1');
-        setLeveller.equipLevelSet(player, 'INTEnfeeble', sets);
+        setLeveller.equipLevelSet(player, 'Dark', sets);
     elseif (action.Skill == 'Healing Magic') then
         setLeveller.equipItem('Main', staffTable['Light']);
         setLeveller.equipItem('Sub', 'Raptor Strap +1');
         setLeveller.equipLevelSet(player, 'Cure', sets);
+
+        if (statusCleaners:contains(action.Name)) then
+            setLeveller.equipItem('Ring2', 'Virology Ring');
+
+            if action.Name == 'Cursna' then
+                setLeveller.equipItem('Legs', 'Cleric\'s Pantaln.');
+                setLeveller.equipItem('Feet', 'Healer\'s Mitts');
+            end
+        end
     elseif (action.Skill == 'Divine Magic') then
         setLeveller.equipItem('Main', staffTable['Light']);
         setLeveller.equipItem('Sub', 'Raptor Strap +1');
@@ -234,7 +252,13 @@ profile.HandleMidcast = function()
     end
 
     if (string.match(action.Name, 'Regen')) then
+        setLeveller.equipItem('Main', 'Rucke\'s Rung');
         setLeveller.equipItem('Sub', 'Raptor Strap +1');
+    end
+
+    if string.match(action.Name, 'Bar')  then
+        setLeveller.equipItem('Body', 'Blessed Bliaut');
+        setLeveller.equipItem('Legs', 'Cleric\'s Pantaln.');
     end
 
     if action.Name == 'Stoneskin' then

@@ -22,6 +22,18 @@ local divine = {
         Waist = 'Ryl.Kgt. Belt',
         Legs = 'Wonder Braccae',
     },
+    ['Divine50'] = {
+        Neck = 'Promise Badge',
+        Ear1 = 'Geist Earring',
+        Ear2 = 'Geist Earring',
+        Body = 'Baron\'s Saio',
+        Ring1 = 'Tamas Ring',
+        Ring2 = 'Kshama Ring No.9',
+        Back = 'Red Cape +1',
+        Waist = 'Ryl.Kgt. Belt',
+        Legs = 'Wonder Braccae',
+        Feet = 'Crow Gaiters',
+    },
     ['Divine40'] = {
         Main = 'Solid Wand',
         Neck = 'Justice Badge',
